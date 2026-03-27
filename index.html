@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lizsoft — Digital Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">LIZSOFT</a>
+      <nav class="nav">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title">Transforming Ideas into Digital Reality</h1>
+        <p class="hero__subtitle">Lizsoft delivers modern web solutions that drive growth. We build clean, performant, and user-centered products.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get Started</a>
+          <a href="#about" class="btn btn--secondary">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section__heading">Who We Are</h2>
+        <p class="section__text">We are a passionate team of developers and designers dedicated to crafting exceptional digital experiences. With a focus on simplicity and quality, we help businesses of all sizes establish a strong online presence. Our philosophy: good design is not decoration — it's how it works.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section__heading">Our Services</h2>
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__icon">💻</div>
+            <h3 class="service-card__title">Web Development</h3>
+            <p class="service-card__desc">Custom websites and applications built with modern standards</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🎨</div>
+            <h3 class="service-card__title">UI/UX Design</h3>
+            <p class="service-card__desc">User-centered interfaces that convert and delight</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">⚡</div>
+            <h3 class="service-card__title">Performance Optimization</h3>
+            <p class="service-card__desc">Speed, SEO, and accessibility audits</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section__heading">Let's Talk</h2>
+        <p class="section__text">Ready to start your project? Send us a message and we'll respond within 24 hours.</p>
+        <form class="contact__form" action="mailto:hello@lizsoft.com" method="POST" enctype="text/plain">
+          <div class="form__group">
+            <label for="name" class="form__label">Name</label>
+            <input type="text" id="name" name="name" class="form__input" placeholder="Your name" required />
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="your@email.com" required />
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea id="message" name="message" class="form__textarea" rows="5" placeholder="Tell us about your project" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Lizsoft. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#" class="footer__link">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
